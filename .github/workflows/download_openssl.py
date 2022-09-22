@@ -62,7 +62,7 @@ def main(platform, target):
     token = os.environ["GITHUB_TOKEN"]
     print("Looking for: {}".format(target))
     runs_url = (
-        "https://api.github.com/repos/pyca/infra/actions/workflows/"
+        "https://api.github.com/repos/jeffreyparker/infra/actions/workflows/"
         "{}/runs?branch=main&status=success".format(workflow)
     )
 
