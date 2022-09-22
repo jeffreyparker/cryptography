@@ -1,12 +1,13 @@
 name: macOS arm64 CI
 on:
-  push:
-    branches:
-      - main
-      - '*.*.x'
-    tags:
-      - '*.*'
-      - '*.*.*'
+  workflow_dispatch:
+  # push:
+  #   branches:
+  #     - main
+  #     - '*.*.x'
+  #   tags:
+  #     - '*.*'
+  #     - '*.*.*'
 
 permissions:
   contents: read

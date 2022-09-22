@@ -4,9 +4,9 @@ permissions:
 
 on:
   workflow_dispatch:
-  schedule:
-    # Run daily
-    - cron: "0 0 * * *"
+  # schedule:
+  #   # Run daily
+  #   - cron: "0 0 * * *"
 
 jobs:
   bump:
